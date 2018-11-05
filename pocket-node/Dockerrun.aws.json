@@ -1,12 +1,12 @@
  { 
    "AWSEBDockerrunVersion": "1",
    "Image": {
-     "Name": "aqt01/geth-rinkeby-docker",
+     "Name": "poktnetwork/pocket-node:geth",
      "Update": "true"
    },
    "Ports": [
      {
-       "ContainerPort": "8545"
+       "ContainerPort": "8000"
      }
    ],
    "Logging": "/var/log/nginx"
